@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcase.Homepage">
+        <methods>
+          <include name="select_year"/>
+          <include name="click_ondate"/>
+          <include name="click_on_Secondcalender"/>
+          <include name="verify_result"/>
+          <include name="click_calcutionduration"/>
+          <include name="select_month_secondcalender"/>
+          <include name="click_ondate_secondcalender"/>
+        </methods>
+      </class> <!-- Testcase.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
