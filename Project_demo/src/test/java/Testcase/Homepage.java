@@ -1,4 +1,4 @@
-package Testcase;
+ package Testcase;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,50 +19,26 @@ public class Homepage {
 	   @Test(priority=2)
 	   public void click_oncalender(){
 		  
-		   page.click_on_calender(PageLocators.first_calender);
+		   page.click_on_calender(PageLocators.first_calender, PageLocators.firstcalendarmonth, PageLocators.selectfirstcalendarmonth,PageLocators.year, PageLocators.firstyear, PageLocators.first_date);
+		   
+//		   page.click_on_year(PageLocators.year, PageLocators.firstyear, PageLocators.first_date);
+	  page.click_on_calender(PageLocators.second_calender, PageLocators.secondcalendarmonth, PageLocators.selectsecondcalendarmonth,PageLocators.secondyear, PageLocators.second_year, PageLocators.second_date);
+//		  page.click_on_year(PageLocators.secondyear, PageLocators.second_year, PageLocators.second_date);
+		 
+		  page.clickonresult(PageLocators.submit);
+		  String result=page.verifyresult(PageLocators.verifydetails);
+		   Assert.assertEquals(result, "Result: 1734 days");
+		  
+		  
 	   }
-	    @Test(priority=3)
-	     public void select_month(){
-	    	page.click_onmonth(PageLocators.month_next);
-	    }
-	     @Test(priority=4)
-		    public void click_ondate(){
-	    	//  System.out.println("date");
-		    	page.click_ondate(PageLocators.first_date);
-		    }
-	     @Test(priority=5)
-	     public void click_on_Secondcalender(){
-	   	  page.click_on_calender(PageLocators.second_calender);
-	     }
+	  
 	    
-	    @Test(priority=6)
-	     public void select_year(){
-	   page.clickonyear(PageLocators.secondyear);
-	   	 page.clickonyear(PageLocators.second_year);
-	    }
-	    
-	    @Test(priority=7)
-	     public void select_month_secondcalender(){
-	   	  page.select_month(PageLocators.month_next);
-	     }
-	    @Test(priority=8)
-		    public void click_ondate_secondcalender(){
-		    	page.click_ondate(PageLocators.second_date);
+	   
 		    }
-	 
-	    @Test(priority=9)
-	     public void click_calcutionduration(){
-	   	 page.clickonresult(PageLocators.submit);
-	    }
-	    @Test(priority=10)
-	    public void verify_result(){
-	   	String current_result=page.verifyresult(PageLocators.verifydetails);
-	   	 Assert.assertEquals(current_result, "Result: 1734 days");
-	    }
-
+	    
 	
 	    
 	     
 	
 
-}
+

@@ -1,52 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11505" started-at="2021-01-28T01:37:35Z" finished-at="2021-01-28T01:37:47Z">
+  <suite name="Default suite" duration-ms="13714" started-at="2021-01-28T10:38:08Z" finished-at="2021-01-28T10:38:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11505" started-at="2021-01-28T01:37:35Z" finished-at="2021-01-28T01:37:47Z">
+    <test name="Default test" duration-ms="13714" started-at="2021-01-28T10:38:08Z" finished-at="2021-01-28T10:38:22Z">
       <class name="Testcase.Homepage">
-        <test-method status="PASS" signature="launchurl()[pri:1, instance:Testcase.Homepage@5f049ea1]" name="launchurl" duration-ms="4741" started-at="2021-01-28T07:07:35Z" finished-at="2021-01-28T07:07:40Z">
+        <test-method status="PASS" signature="launchurl()[pri:1, instance:Testcase.Homepage@3f191845]" name="launchurl" duration-ms="4515" started-at="2021-01-28T16:08:08Z" finished-at="2021-01-28T16:08:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchurl -->
-        <test-method status="PASS" signature="click_oncalender()[pri:2, instance:Testcase.Homepage@5f049ea1]" name="click_oncalender" duration-ms="1008" started-at="2021-01-28T07:07:40Z" finished-at="2021-01-28T07:07:41Z">
+        <test-method status="PASS" signature="click_oncalender()[pri:2, instance:Testcase.Homepage@3f191845]" name="click_oncalender" duration-ms="9136" started-at="2021-01-28T16:08:13Z" finished-at="2021-01-28T16:08:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_oncalender -->
-        <test-method status="PASS" signature="select_month()[pri:3, instance:Testcase.Homepage@5f049ea1]" name="select_month" duration-ms="1609" started-at="2021-01-28T07:07:41Z" finished-at="2021-01-28T07:07:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_month -->
-        <test-method status="PASS" signature="click_ondate()[pri:4, instance:Testcase.Homepage@5f049ea1]" name="click_ondate" duration-ms="232" started-at="2021-01-28T07:07:43Z" finished-at="2021-01-28T07:07:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_ondate -->
-        <test-method status="PASS" signature="click_on_Secondcalender()[pri:5, instance:Testcase.Homepage@5f049ea1]" name="click_on_Secondcalender" duration-ms="220" started-at="2021-01-28T07:07:43Z" finished-at="2021-01-28T07:07:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_on_Secondcalender -->
-        <test-method status="PASS" signature="select_year()[pri:6, instance:Testcase.Homepage@5f049ea1]" name="select_year" duration-ms="272" started-at="2021-01-28T07:07:43Z" finished-at="2021-01-28T07:07:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_year -->
-        <test-method status="PASS" signature="select_month_secondcalender()[pri:7, instance:Testcase.Homepage@5f049ea1]" name="select_month_secondcalender" duration-ms="823" started-at="2021-01-28T07:07:43Z" finished-at="2021-01-28T07:07:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_month_secondcalender -->
-        <test-method status="PASS" signature="click_ondate_secondcalender()[pri:8, instance:Testcase.Homepage@5f049ea1]" name="click_ondate_secondcalender" duration-ms="208" started-at="2021-01-28T07:07:44Z" finished-at="2021-01-28T07:07:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_ondate_secondcalender -->
-        <test-method status="PASS" signature="click_calcutionduration()[pri:9, instance:Testcase.Homepage@5f049ea1]" name="click_calcutionduration" duration-ms="704" started-at="2021-01-28T07:07:44Z" finished-at="2021-01-28T07:07:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_calcutionduration -->
-        <test-method status="PASS" signature="verify_result()[pri:10, instance:Testcase.Homepage@5f049ea1]" name="verify_result" duration-ms="1578" started-at="2021-01-28T07:07:45Z" finished-at="2021-01-28T07:07:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_result -->
       </class> <!-- Testcase.Homepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -21,31 +21,21 @@ public class PageActions {
 	  }
 	
 	
-	 public  void click_on_calender(WebElement element){
-		 bc.wait.until(ExpectedConditions.visibilityOf(element)).click();
-	 }
-	  public void click_ondate(WebElement element){
-		 bc.wait.until(ExpectedConditions.visibilityOf(element)).click();
+	 public  void click_on_calender(WebElement clickcalender,WebElement clickonmonth, WebElement Selectmonth,WebElement clickyear,WebElement selectyear, WebElement selectdate){
+		 bc.wait.until(ExpectedConditions.visibilityOf(clickcalender)).click();
+	    bc.wait.until(ExpectedConditions.visibilityOf(clickonmonth)).click();
+	    Selectmonth.click();
+	    bc.wait.until(ExpectedConditions.visibilityOf(clickyear)).click();
+	    bc.wait.until(ExpectedConditions.visibilityOf(selectyear)).click();
+	    selectdate.click();
 	  }
-	
-	  public void click_onmonth( WebElement element){
-		 element.click();
+	 
+	 public  void click_on_year(WebElement clickyear,WebElement selectyear, WebElement selectdate){
+		 bc.wait.until(ExpectedConditions.visibilityOf(clickyear)).click();
+	    bc.wait.until(ExpectedConditions.visibilityOf(selectyear)).click();
+	    selectdate.click();
 	  }
-	   public void select_month( WebElement element){
-		  for(int i=0;i<=8;i++){
-			   element.click();
-		  }
-		   
-	   }
-	  public void date( WebElement  element){
-        element .click();
- 		  
-}
- public void clickonyear(WebElement element){
-	 element.click();
-		    	
-		    }
-		  public void clickonresult( WebElement element){
+	 		 public void clickonresult( WebElement element){
 			  element.click();
 		  }
 		   public String  verifyresult(WebElement element){
